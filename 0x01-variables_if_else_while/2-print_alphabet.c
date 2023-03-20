@@ -8,10 +8,11 @@
   */
 int main(void)
 {
-for (int i = 'a' ; i <= 'z' ; i++)
+int n = 'a';
+while (n != 'z')
 {
-putchar(i);
-printf("\n");
+putchar(n);
+n++;
 }
 return (0);
 }
