@@ -21,6 +21,5 @@ while (n <= 'Z')
 putchar(n);
 n++;
 }
-printf("\n");
 return (0);
 }
