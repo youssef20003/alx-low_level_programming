@@ -14,6 +14,5 @@ while (n <= 57)
 putchar(n);
 n++;
 }
-printf("\n");
 return (0);
 }
