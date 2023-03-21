@@ -8,13 +8,17 @@
   */
 int main(void)
 {
-for(int i = 48; i <= 57; i++)
+int n = 48;
+int a = 'a';
+while (n <= 56)
 {
-putchar(i);  
+putchar(n);
+n++;  
 }
-for(int i = 'a'; i <= 'f'; i++)
+while (a <= 'f')
 {
-putchar(i);
+putchar(a);
+a++;
 }
 putchar('\n');
 return (0);
