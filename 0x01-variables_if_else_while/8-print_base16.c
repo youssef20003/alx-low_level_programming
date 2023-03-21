@@ -10,10 +10,10 @@ int main(void)
 {
 int n = 48;
 int a = 'a';
-while (n <= 56)
+while (n <= 57)
 {
 putchar(n);
-n++;  
+n++;
 }
 while (a <= 'f')
 {
