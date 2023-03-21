@@ -20,5 +20,5 @@ if (x < 0)
 x = -x;
 }
 _putchar(x + '0')
-return (a);
+return (x);
 }
