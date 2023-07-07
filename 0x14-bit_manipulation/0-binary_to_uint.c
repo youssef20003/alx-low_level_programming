@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -21,11 +20,7 @@ unsigned int binary_to_uint(const char *b)
         {
             return (0);
         }
-        if (b[i] == '1')
-        {
-            total = decv;
-            decv *= 2;
-        }
+        total = 2 * total + (b[i] - '0');
     }
     return (total);
 }
