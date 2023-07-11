@@ -23,7 +23,7 @@ if (fp == -1)
 {
 return (0);
 }
-i = read(fp, &buf[0], letters);
-i = write(STDOUT_FILENO, &buf[0], i);
+test = read(fp, &buf[0], letters);
+test = write(STDOUT_FILENO, &buf[0], test);
 return (i);
 }
