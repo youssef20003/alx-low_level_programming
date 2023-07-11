@@ -10,11 +10,11 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 int fp;
-char buf[1024 * 8];
+char *buf[1024 * 8];
 size_t i;
 int test;
 
-if (!filename | !letters)
+if (!filename || !letters)
 {
 return (0);
 }
