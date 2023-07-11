@@ -24,6 +24,7 @@ if (fp == -1)
 return (0);
 }
 test = read(fp, buf[0], letters);
-test = write(STDOUT_FILENO, buf[0], test);
+write(STDOUT_FILENO, buf[0], test);
+close(fp);
 return (i);
 }
